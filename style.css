@@ -8,11 +8,15 @@ body {
 header {
     background-color: #1F2937;
     color: #f9faf8;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo {
     font-size: 24px;
     font-weight: 900;
-    display: flex;
-    padding: 10px;
-    align-items: center;
 }
 
 ul {
@@ -20,6 +24,7 @@ ul {
     font-size: 18px;
     font-weight: 300;
     display: flex;
+    gap: 40px;
 }
 
 a {
