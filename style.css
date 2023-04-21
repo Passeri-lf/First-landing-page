@@ -177,7 +177,7 @@ img {
     width: 1400px;
     background-color: #3882f6;
     border: 1px solid #3882f6;
-    border-radius: 15px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -195,6 +195,7 @@ img {
 .cta-subtext {
     font-size: 18px;
     font-weight: 300px;
+    color: #e5e7eb;
 }
 
 #cta-button {
@@ -208,4 +209,16 @@ img {
     height: 32px;
     margin-top: 20px;
     font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
